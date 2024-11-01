@@ -1,5 +1,5 @@
 import random
-n=random.random()*1000000000%100+1
+n=int(random.random()*1000000000%100+1)
 a=int(input("Guess a number"))
 while a!=n:
       if a>n:
